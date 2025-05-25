@@ -8,3 +8,11 @@
     - PostgreSQL Driver
 
 ![](Images/20250525213811.png)
+
+Update ```gradle-wrapper.properties``` to 8.15
+
+![](Images/20250525214233.png)
+
+invoke ```.\gradlew.bat wrapper```
+
+Invoke ```.\gradlew.bat build```
