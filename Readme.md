@@ -18,3 +18,16 @@ invoke ```.\gradlew.bat wrapper```
 Invoke ```.\gradlew.bat build```
 
 Do as in the [tutorial](https://github.com/ProductivityTools-Learning/ProductivityTools.Learning.Java.Flyway)
+
+Open [page](http://localhost:8080/graphiql?path=/graphql)
+
+invoke
+```
+query getPersonQuery{
+  getPerson {
+    firstName,
+    lastName
+  }
+}
+```
+![](Images/20250525221624.png)
