@@ -16,3 +16,5 @@ Update ```gradle-wrapper.properties``` to 8.15
 invoke ```.\gradlew.bat wrapper```
 
 Invoke ```.\gradlew.bat build```
+
+Do as in the [tutorial](https://github.com/ProductivityTools-Learning/ProductivityTools.Learning.Java.Flyway)
