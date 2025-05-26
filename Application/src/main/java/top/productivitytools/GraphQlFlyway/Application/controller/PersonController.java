@@ -4,13 +4,21 @@ import org.springframework.graphql.data.method.annotation.QueryMapping;
 //import org.springframework.graphql.data.method.annotation.SchemaMapping;
 import org.springframework.stereotype.Controller;
 
+import lombok.RequiredArgsConstructor;
 import top.productivitytools.GraphQlFlyway.Application.entity.Person;
+import top.productivitytools.GraphQlFlyway.Application.service.PersonService;
 
 @Controller
+@RequiredArgsConstructor
 public class PersonController {
+
+    private final PersonService personService;
+
     @QueryMapping
     public Person getPerson() {
-        return new Person("John", "Doe");
+        var person = personService.getEmployeeById(1);
+        return person;
+        // return new Person("John", "Doe");
     }
 
     // @SchemaMapping
