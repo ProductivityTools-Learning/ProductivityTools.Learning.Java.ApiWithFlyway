@@ -19,6 +19,10 @@ Invoke ```.\gradlew.bat build```
 
 Do as in the [tutorial](https://github.com/ProductivityTools-Learning/ProductivityTools.Learning.Java.Flyway)
 
+```
+.\gradlew.bat bootrun
+```
+
 Open [page](http://localhost:8080/graphiql?path=/graphql)
 
 invoke
